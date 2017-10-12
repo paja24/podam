@@ -335,7 +335,6 @@
 				<version>2.19</version>
 				<configuration>
 					<skip>true</skip>
-					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -348,6 +347,7 @@
 						<include>**/When*.java</include>
 						<include>**/*TestSuite.java</include>
 					</includes>
+					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>
 				<executions>
 					<execution>
